@@ -1,10 +1,19 @@
 p{
         font-size: 13px;
-        font-face: Helvetica;
-        margin: 1px;
+        font-family: Times;
+        margin-top: 1px;
+        margin-bottom: 6px;
+        margin-left: .5%;
 }
 
-p.italic {
+.italic {
+        font-style: italic;
+}
+.bold {
+        font-weight: bold;
+}
+.date-range {
+        text-align: right;
         font-style: italic;
 }
 
@@ -15,8 +24,9 @@ h1{
 }
 
 h2{
-        font-size: 20px;
+        font-size: 16px;
         text-align: left;
+        margin: 3px;
 }
 
 
@@ -26,6 +36,4 @@ h3{
         text-align: left;
         margin: 1px;
 }
-h3.italic {
-        font-style: italic;
-}
+
